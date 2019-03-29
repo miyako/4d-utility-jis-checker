@@ -60,3 +60,4 @@ http://www.w3.org/Submission/japanese-xml/#ambiguity_of_yen
 ### MacJapanese
 
 * X-Mac-Japaneseの``7355``文字については[http://www.unicode.org/](ftp://ftp.unicode.org/Public/MAPPINGS/VENDORS/APPLE/JAPANESE.TXT)のリストから生成したパターンを使用しています。
+
