@@ -57,7 +57,7 @@ http://www.w3.org/Submission/japanese-xml/#ambiguity_of_yen
 
 ### cp932
 
-* Windows-31Jの``7915``文字については，[http://www.unicode.org/](http://unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP932.TXT)のリストから生成したパターンを使用しています。Windowsのいわゆる環境依存文字は「OK」となりますが，``0xA5``円マークと``0x203E``オーバーラインはダメ扱いです（バックスラッシュとチルダをサポートするため）。
+* Windows-31Jの``7915``文字については，[http://www.unicode.org/](http://unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP932.TXT)のリストから生成したパターンを使用しています。Windowsのいわゆる環境依存文字は「OK」となりますが，``0xA5``円マークと``0x203E``オーバーラインはダメ扱いです（バックスラッシュとチルダは『OK』）。
 
 ### cp50220
 
