@@ -48,3 +48,7 @@ http://www.w3.org/Submission/japanese-xml/#ambiguity_of_yen
 * 標準のJIS漢字でチェックしているので，cp932のMicrosoft機種依存文字や，x-Mac-JapaneseのApple機種依存文字はダメ扱いになります。
 
 * そのままISO-2022-JPのチェックになります。つまり，全角文字はWindows-31Jではなく，Shift_JISの範囲でサポート，半角カタカナは全角に変換（``ESC ( I``をサポートしない），円マーク・オーバーライン・バックスラッシュ・チルダは区別する（ASCIIとJIS X 0201を使い分ける）ような基本のISO-2022-JPです。
+
+### cp932
+
+* Windows-31Jの``7915``文字については，[http://www.unicode.org/](http://unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP932.TXT)のリストから生成したパターンを使用しています。Windowsのいわゆる環境依存文字は「OK」となりますが，バックスラッシュとオーバーラインはダメ扱いです。
