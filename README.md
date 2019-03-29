@@ -37,9 +37,9 @@ $m:=cp50221 ($t)
 
 ### sjis
 
-* JIS X 0208（JIS漢字）の``6879``文字については，[http://www.unicode.org/P](http://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/JIS0208.TXT)のリストから生成したパターンを使用しています。
+* JIS X 0208（JIS漢字）の``6879``文字については，[http://www.unicode.org/](http://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/JIS0208.TXT)のリストから生成したパターンを使用しています。
 
-* JIS X 0201（半角カナを含む日本版のASCIIコード）については，[http://www.unicode.org/P](http://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/JIS0201.TXT)のリストから生成したバターン``\u0020-\u005B\u005D-\u007D\u00A5\u203E\uFF61-\uFF9F``より，ASCIIと重複しない``\u203E\uFF61-\uFF9F``の部分を使用しています。したがって，あいまい文字（``0xA5`` 円マーク，``0x203E`` オーバライン）は，別の文字に変換されるとしても「OK」扱いになります。
+* JIS X 0201（半角カナを含む日本版のASCIIコード）については，[http://www.unicode.org/](http://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/JIS/JIS0201.TXT)のリストから生成したバターン``\u0020-\u005B\u005D-\u007D\u00A5\u203E\uFF61-\uFF9F``より，ASCIIと重複しない``\u203E\uFF61-\uFF9F``の部分を使用しています。したがって，あいまい文字（``0xA5`` 円マーク，``0x203E`` オーバライン）は，別の文字に変換されるとしても「OK」扱いになります。
 
 http://www.w3.org/Submission/japanese-xml/#ambiguity_of_yen
 
