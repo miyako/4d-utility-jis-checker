@@ -3,7 +3,13 @@ Shift_JISに変換できない文字の有無をチェック
 
 ### Examples
 
-<img width="660" alt="スクリーンショット 2019-03-29 10 06 51" src="https://user-images.githubusercontent.com/1725068/55202443-ca60c180-520a-11e9-92f7-d0cb60ce0bc8.png">
+<img width="950" alt="スクリーンショット 2019-03-29 12 30 43" src="https://user-images.githubusercontent.com/1725068/55207731-c63e9f00-521e-11e9-9511-dbe1f0b0a077.png">
+
+もっとも字数が少ない``sjis``は最初の環境依存文字で躓いている。
+
+Windows系の``cp932``と``cp50220``は，Macの機種依存が処理できない。
+
+一方，MacJapaneseは，オーバーラインが処理できない。
 
 ## About
 
