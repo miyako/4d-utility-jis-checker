@@ -52,3 +52,7 @@ http://www.w3.org/Submission/japanese-xml/#ambiguity_of_yen
 ### cp932
 
 * Windows-31Jの``7915``文字については，[http://www.unicode.org/](http://unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP932.TXT)のリストから生成したパターンを使用しています。Windowsのいわゆる環境依存文字は「OK」となりますが，バックスラッシュとオーバーラインはダメ扱いです。
+
+### cp50220
+
+* Windows-31JがShift_JISの亜種かつデファクトスタンダードであるように，ISO-2022-JPの亜種またデファクトスタンダードとなっているがCP50220です。デファクトスタンダード，と述べるのは，代表的なブラウザがISO-2022-JPを処理する場合，標準のISO-2022-JPではなく，CP50220として扱うためです。CP50220は，標準のISO-2022-JPとは違って半角カナをそのままエンコードすることができ（``ESC ( I``）Windowsのいわゆる環境依存文字も扱うことができます。
